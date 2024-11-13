@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<articulo>
+	<titulo>QualityFly</titulo>
+	<fecha>2024-11-13</fecha>
+	<autores> Aguilera Nahuel, Monelli Alexander, Previgliano Milena,Vigna Rufino Gino</autores>
+	<contenido>
+		<introduccion>
+			La clase <nombreClase>Aerolinea</nombreClase> gestiona los vuelos y la ocupación de pasajeros en una aerolínea.
+		</introduccion>
+		<clase>
+			<nombre>Aerolinea</nombre>
+			<descripcion>
+				Esta clase permite agregar vuelos, registrar pasajeros, calcular la ocupación media y mostrar el vuelo con mayor ocupación.
+			</descripcion>
+			<metodos>
+				<metodo>
+					<nombre>AgregarVuelo</nombre>
+					<descripcion>
+						Permite al usuario ingresar los detalles de un nuevo vuelo y lo agrega a la lista de vuelos.
+					</descripcion>
+				</metodo>
+				<metodo>
+					<nombre>RegistrarPasajeros</nombre>
+					<descripcion>
+						Registra la cantidad de pasajeros para un vuelo específico basado en su código.
+					</descripcion>
+				</metodo>
+				<metodo>
+					<nombre>OcupacionMedia</nombre>
+					<descripcion>
+						Calcula y devuelve la ocupación media de todos los vuelos registrados.
+					</descripcion>
+				</metodo>
+				<metodo>
+					<nombre>MostrarVueloMayorOcupacion</nombre>
+					<descripcion>
+						Muestra el vuelo con la mayor ocupación registrada.
+					</descripcion>
+				</metodo>
+				<metodo>
+					<nombre>BuscarVuelo</nombre>
+					<descripcion>
+						Busca un vuelo por su código y lo devuelve si se encuentra.
+					</descripcion>
+				</metodo>
+				<metodo>
+					<nombre>ListarVuelos</nombre>
+					<descripcion>
+						Lista todos los vuelos registrados y su ocupación.
+					</descripcion>
+				</metodo>
+				<metodo>
+					<nombre>CargarDatos</nombre>
+					<descripcion>
+						Método para cargar datos desde un archivo (implementación pendiente).
+					</descripcion>
+				</metodo>
+				<metodo>
+					<nombre>GuardarDatos</nombre>
+					<descripcion>
+						Método para guardar datos a un archivo (implementación pendiente).
+					</descripcion>
+				</metodo>
+			</metodos>
+			<utilidades>
+				<metodo>
+					<nombre>LeerFecha</nombre>
+					<descripcion>
+						Lee y valida una fecha ingresada por el usuario.
+					</descripcion>
+				</metodo>
+				<metodo>
+					<nombre>LeerEntero</nombre>
+					<descripcion>
+						Lee y valida un número entero positivo ingresado por el usuario.
+					</descripcion>
+				</metodo>
+			</utilidades>
+		</clase>
+	</contenido>
+</articulo>
